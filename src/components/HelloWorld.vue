@@ -1,7 +1,12 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({
+  data() {
+    return {
+      msg: "",
+    }
+  }
+})
 </script>
 
 <template>
